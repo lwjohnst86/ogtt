@@ -1,10 +1,10 @@
 Package: ogtt
-Title: Calculate Estimated Metabolic Measures Derived From an OGTT.
+Title: Calculate Estimated Metabolic Measures Derived From an Oral Glucose Tolerance Test.
 Version: 0.0.0.9000
 Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com", role = c("aut", "cre"))
 Description: Contains functions to calculate OGTT-derived measures of insulin
-    sensitivity and beta-cell dysfunction.
-Depends: R (>= 3.3.1)
+    sensitivity, beta-cell function, and insulin clearance, among others.
+Depends: R (>= 3.4.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -14,3 +14,4 @@ Suggests: knitr,
 VignetteBuilder: knitr
 URL: https://github.com/lwjohnst86/ogtt
 BugReports: https://github.com/lwjohnst86/ogtt/issues
+Imports: assertive
